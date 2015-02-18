@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		503E9A761A8D41CF00C3C7EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 503E9A751A8D41CF00C3C7EF /* main.m */; };
+		503E9A911A8D41EA00C3C7EF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 503E9A821A8D41EA00C3C7EF /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,26 @@
 /* Begin PBXFileReference section */
 		503E9A721A8D41CF00C3C7EF /* OpenGL-oC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "OpenGL-oC"; sourceTree = BUILT_PRODUCTS_DIR; };
 		503E9A751A8D41CF00C3C7EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		503E9A7D1A8D41EA00C3C7EF /* Art.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Art.h; sourceTree = "<group>"; };
+		503E9A7E1A8D41EA00C3C7EF /* DisplayProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayProcessor.h; sourceTree = "<group>"; };
+		503E9A7F1A8D41EA00C3C7EF /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		503E9A801A8D41EA00C3C7EF /* KeyboardProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardProcessor.h; sourceTree = "<group>"; };
+		503E9A811A8D41EA00C3C7EF /* LightSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightSource.h; sourceTree = "<group>"; };
+		503E9A821A8D41EA00C3C7EF /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		503E9A831A8D41EA00C3C7EF /* Menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu.h; sourceTree = "<group>"; };
+		503E9A841A8D41EA00C3C7EF /* Mouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mouse.h; sourceTree = "<group>"; };
+		503E9A851A8D41EA00C3C7EF /* MouseProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MouseProcessor.h; sourceTree = "<group>"; };
+		503E9A861A8D41EA00C3C7EF /* Observer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Observer.h; sourceTree = "<group>"; };
+		503E9A871A8D41EA00C3C7EF /* Particle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Particle.h; sourceTree = "<group>"; };
+		503E9A881A8D41EA00C3C7EF /* Physics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Physics.h; sourceTree = "<group>"; };
+		503E9A891A8D41EA00C3C7EF /* PointOfView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointOfView.h; sourceTree = "<group>"; };
+		503E9A8A1A8D41EA00C3C7EF /* RattleGLI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RattleGLI.h; sourceTree = "<group>"; };
+		503E9A8B1A8D41EA00C3C7EF /* RMXDebugger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMXDebugger.h; sourceTree = "<group>"; };
+		503E9A8C1A8D41EA00C3C7EF /* ShapeObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapeObject.h; sourceTree = "<group>"; };
+		503E9A8D1A8D41EA00C3C7EF /* Shapes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shapes.h; sourceTree = "<group>"; };
+		503E9A8E1A8D41EA00C3C7EF /* SimpleParticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleParticle.h; sourceTree = "<group>"; };
+		503E9A8F1A8D41EA00C3C7EF /* Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Window.h; sourceTree = "<group>"; };
+		503E9A901A8D41EA00C3C7EF /* World.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = World.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +78,37 @@
 		503E9A741A8D41CF00C3C7EF /* OpenGL-oC */ = {
 			isa = PBXGroup;
 			children = (
+				503E9A7C1A8D41EA00C3C7EF /* OpenGL 2.0 */,
 				503E9A751A8D41CF00C3C7EF /* main.m */,
 			);
 			path = "OpenGL-oC";
+			sourceTree = "<group>";
+		};
+		503E9A7C1A8D41EA00C3C7EF /* OpenGL 2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				503E9A7D1A8D41EA00C3C7EF /* Art.h */,
+				503E9A7E1A8D41EA00C3C7EF /* DisplayProcessor.h */,
+				503E9A7F1A8D41EA00C3C7EF /* Header.h */,
+				503E9A801A8D41EA00C3C7EF /* KeyboardProcessor.h */,
+				503E9A811A8D41EA00C3C7EF /* LightSource.h */,
+				503E9A821A8D41EA00C3C7EF /* main.cpp */,
+				503E9A831A8D41EA00C3C7EF /* Menu.h */,
+				503E9A841A8D41EA00C3C7EF /* Mouse.h */,
+				503E9A851A8D41EA00C3C7EF /* MouseProcessor.h */,
+				503E9A861A8D41EA00C3C7EF /* Observer.h */,
+				503E9A871A8D41EA00C3C7EF /* Particle.h */,
+				503E9A881A8D41EA00C3C7EF /* Physics.h */,
+				503E9A891A8D41EA00C3C7EF /* PointOfView.h */,
+				503E9A8A1A8D41EA00C3C7EF /* RattleGLI.h */,
+				503E9A8B1A8D41EA00C3C7EF /* RMXDebugger.h */,
+				503E9A8C1A8D41EA00C3C7EF /* ShapeObject.h */,
+				503E9A8D1A8D41EA00C3C7EF /* Shapes.h */,
+				503E9A8E1A8D41EA00C3C7EF /* SimpleParticle.h */,
+				503E9A8F1A8D41EA00C3C7EF /* Window.h */,
+				503E9A901A8D41EA00C3C7EF /* World.h */,
+			);
+			path = "OpenGL 2.0";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				503E9A911A8D41EA00C3C7EF /* main.cpp in Sources */,
 				503E9A761A8D41CF00C3C7EF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

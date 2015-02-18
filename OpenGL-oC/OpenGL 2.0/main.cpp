@@ -6,11 +6,11 @@
 //  Copyright (c) 2015 Rattle Media Ltd. All rights reserved.
 //
 
-#include <Foundation/Foundation.h>
+
 #include "Header.h"
 
 
-+ (void)InitGraphics
+void InitGraphics(void)
 {
     int width, height;
     int nComponents;
@@ -53,20 +53,20 @@ int init()
     
     glutInitDisplayMode ( GLUT_RGB | GLUT_DOUBLE | GLUT_DEPTH);
     
-    
+
     if (window.isFullscreen()){//&&glutGameModeGet(GLUT_GAME_MODE_POSSIBLE)){
         glutEnterGameMode();
     }else {
         cout << glutGameModeGet(GLUT_GAME_MODE_POSSIBLE);
-        //window.create(glutCreateWindow);
+         //window.create(glutCreateWindow);
         window.create(glutCreateWindow);
-        //        glutInitWindowPosition(100,100);
-        //        glutInitWindowSize(640,360);
-        //        glutCreateWindow("SnowMen from Lighthouse3D");
+//        glutInitWindowPosition(100,100);
+//        glutInitWindowSize(640,360);
+//        glutCreateWindow("SnowMen from Lighthouse3D");
     }
+
     
-    
-    
+        
     // Register callbacks:
     window.display (display,reshape);
     window.keyboard(keyPressed,keyUp,keySpecial,keySpecialUp);
@@ -75,7 +75,7 @@ int init()
     
     // Create our popup menu
     BuildPopupMenu ();
-    InitGraphics();
+InitGraphics();
     glutAttachMenu (GLUT_RIGHT_BUTTON);
     // Get the initial time, for use by animation
 #ifdef _WIN32
@@ -103,7 +103,7 @@ int init()
 //using namespace World;
 //World world = World();
 int main (int argc, char **argv) {
-    
+   
     sh = &world.getShapes()[World::Objects::BOX1];
     sh->setPosition(GLKVector3Make(6,0,0));
     sh->setColor(yellow);
@@ -133,13 +133,13 @@ int main (int argc, char **argv) {
     observer = world.getMainObserver();
     
     glutInit(&argc, argv);
-    //Interface view = Interface();
+     //Interface view = Interface();
     
     
     
     init();
     //glutInitDisplayMode( GLUT_SINGLE );//GLUT_RGBA | GLUT_DEPTH | GLUT_DOUBLE );
-    
+
     //glutMainLoop(); // Enter GLUT's main loop
     
     return 0;

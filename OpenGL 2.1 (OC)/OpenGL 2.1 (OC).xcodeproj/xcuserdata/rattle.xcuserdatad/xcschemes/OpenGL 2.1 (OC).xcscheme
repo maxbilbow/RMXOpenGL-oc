@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "503E9A711A8D41CF00C3C7EF"
-               BuildableName = "OpenGL-oC"
-               BlueprintName = "OpenGL-oC"
-               ReferencedContainer = "container:OpenGL-oC.xcodeproj">
+               BlueprintIdentifier = "6CA58F6C1A90F1BC0087B19C"
+               BuildableName = "OpenGL 2.1 (OC)"
+               BlueprintName = "OpenGL 2.1 (OC)"
+               ReferencedContainer = "container:OpenGL 2.1 (OC).xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "503E9A711A8D41CF00C3C7EF"
-            BuildableName = "OpenGL-oC"
-            BlueprintName = "OpenGL-oC"
-            ReferencedContainer = "container:OpenGL-oC.xcodeproj">
+            BlueprintIdentifier = "6CA58F6C1A90F1BC0087B19C"
+            BuildableName = "OpenGL 2.1 (OC)"
+            BlueprintName = "OpenGL 2.1 (OC)"
+            ReferencedContainer = "container:OpenGL 2.1 (OC).xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -51,10 +51,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "503E9A711A8D41CF00C3C7EF"
-            BuildableName = "OpenGL-oC"
-            BlueprintName = "OpenGL-oC"
-            ReferencedContainer = "container:OpenGL-oC.xcodeproj">
+            BlueprintIdentifier = "6CA58F6C1A90F1BC0087B19C"
+            BuildableName = "OpenGL 2.1 (OC)"
+            BlueprintName = "OpenGL 2.1 (OC)"
+            ReferencedContainer = "container:OpenGL 2.1 (OC).xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -69,10 +69,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "503E9A711A8D41CF00C3C7EF"
-            BuildableName = "OpenGL-oC"
-            BlueprintName = "OpenGL-oC"
-            ReferencedContainer = "container:OpenGL-oC.xcodeproj">
+            BlueprintIdentifier = "6CA58F6C1A90F1BC0087B19C"
+            BuildableName = "OpenGL 2.1 (OC)"
+            BlueprintName = "OpenGL 2.1 (OC)"
+            ReferencedContainer = "container:OpenGL 2.1 (OC).xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

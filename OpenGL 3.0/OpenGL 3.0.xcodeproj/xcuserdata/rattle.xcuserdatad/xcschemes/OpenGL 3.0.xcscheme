@@ -14,10 +14,24 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "503E9A711A8D41CF00C3C7EF"
-               BuildableName = "OpenGL-oC"
-               BlueprintName = "OpenGL-oC"
-               ReferencedContainer = "container:OpenGL-oC.xcodeproj">
+               BlueprintIdentifier = "6C7A20E51A8F7A5400825704"
+               BuildableName = "OpenGL 3.0.app"
+               BlueprintName = "OpenGL 3.0"
+               ReferencedContainer = "container:OpenGL 3.0.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6C7A21021A8F7A5400825704"
+               BuildableName = "OpenGL 3.0Tests.xctest"
+               BlueprintName = "OpenGL 3.0Tests"
+               ReferencedContainer = "container:OpenGL 3.0.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,14 +42,24 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6C7A21021A8F7A5400825704"
+               BuildableName = "OpenGL 3.0Tests.xctest"
+               BlueprintName = "OpenGL 3.0Tests"
+               ReferencedContainer = "container:OpenGL 3.0.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "503E9A711A8D41CF00C3C7EF"
-            BuildableName = "OpenGL-oC"
-            BlueprintName = "OpenGL-oC"
-            ReferencedContainer = "container:OpenGL-oC.xcodeproj">
+            BlueprintIdentifier = "6C7A20E51A8F7A5400825704"
+            BuildableName = "OpenGL 3.0.app"
+            BlueprintName = "OpenGL 3.0"
+            ReferencedContainer = "container:OpenGL 3.0.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -51,10 +75,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "503E9A711A8D41CF00C3C7EF"
-            BuildableName = "OpenGL-oC"
-            BlueprintName = "OpenGL-oC"
-            ReferencedContainer = "container:OpenGL-oC.xcodeproj">
+            BlueprintIdentifier = "6C7A20E51A8F7A5400825704"
+            BuildableName = "OpenGL 3.0.app"
+            BlueprintName = "OpenGL 3.0"
+            ReferencedContainer = "container:OpenGL 3.0.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -69,10 +93,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "503E9A711A8D41CF00C3C7EF"
-            BuildableName = "OpenGL-oC"
-            BlueprintName = "OpenGL-oC"
-            ReferencedContainer = "container:OpenGL-oC.xcodeproj">
+            BlueprintIdentifier = "6C7A20E51A8F7A5400825704"
+            BuildableName = "OpenGL 3.0.app"
+            BlueprintName = "OpenGL 3.0"
+            ReferencedContainer = "container:OpenGL 3.0.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
