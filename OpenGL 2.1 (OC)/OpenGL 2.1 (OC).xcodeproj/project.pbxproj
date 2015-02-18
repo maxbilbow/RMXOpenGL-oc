@@ -49,7 +49,6 @@
 		6CA58F7B1A90F1FB0087B19C /* Mouse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mouse.h; sourceTree = "<group>"; };
 		6CA58F7C1A90F1FB0087B19C /* PointOfView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PointOfView.h; sourceTree = "<group>"; };
 		6CA58F7E1A90F2170087B19C /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
-		6CA58F7F1A90F2170087B19C /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		6CA58F801A90F2170087B19C /* RMXDebugger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMXDebugger.h; sourceTree = "<group>"; };
 		6CA58F821A90F26F0087B19C /* LightSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LightSource.h; sourceTree = "<group>"; };
 		6CA58F831A90F26F0087B19C /* ShapeObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShapeObject.h; sourceTree = "<group>"; };
@@ -114,7 +113,6 @@
 			isa = PBXGroup;
 			children = (
 				6CA58F7E1A90F2170087B19C /* Header.h */,
-				6CA58F7F1A90F2170087B19C /* main.cpp */,
 				6CA58F801A90F2170087B19C /* RMXDebugger.h */,
 				6CA58F8E1A90F2D10087B19C /* World.h */,
 				6CA58F8D1A90F2C30087B19C /* Interface */,
@@ -374,6 +372,7 @@
 				50639F421A92CD4000A94E5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6CA58F681A90F1BC0087B19C /* Build configuration list for PBXProject "OpenGL 2.1 (OC)" */ = {
 			isa = XCConfigurationList;
